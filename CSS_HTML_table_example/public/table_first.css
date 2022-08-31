@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+table td {
+  background-color: #B0C4DE;
+  padding: 5px;
+}
+
+table th {
+  background-color: #DDA0DD;
+  padding: 10px;
+}
+
+h2 {
+  color: #4B0082;
+}
+
+.class {
+  text-align: center;
+}
+
+table {
+  display: inline-block;
+  border-collapse: separate;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border: 1px solid #A9A9A9;
+}

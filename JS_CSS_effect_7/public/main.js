@@ -1,0 +1,3 @@
+drawName('Gor');
+
+bounceBubbles();

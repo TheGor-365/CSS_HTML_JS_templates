@@ -1,0 +1,121 @@
+html, body {
+  margin: 100;
+  padding: 100;
+  margin-left: 0;
+}
+
+canvas {
+  display: block;
+  background-color: #e85b49;
+  margin-top: 3rem;
+}
+
+p {
+  display:inline;
+  font-family: Oxygen;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+
+#container {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Oxygen;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #fa4359;
+  display: inline-block;
+}
+
+.custom-select select {
+  display: none;
+}
+.select-selected {
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 25px;
+  right: 24px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+
+  border-color: #fa4359 transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fa4359 transparent;
+  top: 7px;
+}
+
+.select-selected {
+  color: #fa4359;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: #979797;
+  cursor: pointer;
+}
+
+.select-items {
+  width: 190px;
+  font-family: Oxygen;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.92;
+  letter-spacing: 0.2px;
+  color: #fa4359;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  position: absolute;
+  top: -2%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div{
+  padding-left: 10px;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: #edeff3;
+}
+
+#transmit{
+  border-radius: 4px;
+  background-color: #fa4359;
+  border-color: #fa4359;
+  font-family: Oxygen;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  padding: 13px 100px 13px 100px;
+  margin-top: 0.5em;
+  color: #ffffff;
+}
